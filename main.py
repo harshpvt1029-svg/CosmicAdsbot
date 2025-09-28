@@ -21,8 +21,8 @@ async def start(client, message):
         add_user(user_id)
     # Buttons: Force Join Channel/Group
     markup = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Join Channel", url="https://t.me/YOURCHANNEL")],
-        [InlineKeyboardButton("Privacy Policy", url=os.getenv("PRIVACY_POLICY_URL"))],
+        [InlineKeyboardButton("Join Channel", url="https://t.me/CosmicAdsPro")],
+        [InlineKeyboardButton("Privacy Policy", url=os.getenv("https://gist.github.com/harshpvt1029-svg/504fba01171ef14c81f9f7143f5349c5#file-privacy-policy"))],
         [InlineKeyboardButton("I Have Read ✅", callback_data="open_dashboard")]
     ])
     await message.reply("Welcome! Please join our channel and read privacy policy first.", reply_markup=markup)
